@@ -1,0 +1,74 @@
+:root {
+    --primary-text-color: #434455;
+    --title-text-color: #2E2F42;
+    --accent-color: #4D5AE5;
+}
+
+body {
+    color: var(--primary-text-color);
+    background-color: #E5E5E5;
+}
+
+/* Шапка */
+
+.logo {
+    color: var(--accent-color);
+}
+.site-nav .nav-link {
+    color: var(--title-text-color);
+}
+
+.nav-link:focus,
+.nav-link:hover {
+    color: var(--accent-color);
+}
+
+.auth-nav {
+    color: var(--primary-text-color);
+}
+.auth-nav:hover,
+.auth-nav:focus {
+    color: var(--accent-color);
+}
+
+/* Герой */
+
+.hero {
+    background-color: #2E2F42;
+}
+
+.hero-title {
+    color: #FFFFFF;
+}
+
+/* Наши преимущества */
+
+.benefits .benefits-title {
+    color: var(--title-text-color);
+}
+
+/* Что мы делаем */
+
+.work .work-title {
+    color: var(--title-text-color);
+}
+
+/* Наша команда */
+
+.team .team-title {
+    color: var(--title-text-color);
+}
+
+/* Футер */
+
+.footer {
+    background-color: #2E2F42;
+}
+
+.footer-logo {
+    color: #F4F4FD;
+}
+
+.footer-text {
+    color: #E7E9FC;
+}
